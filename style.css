@@ -27,7 +27,8 @@ div.triangle {
     border: 200px solid #000000;
     position: relative;
     left: 50%;
-    transform: translate(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     border-top-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
