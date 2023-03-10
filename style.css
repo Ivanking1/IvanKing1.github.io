@@ -21,14 +21,13 @@ div.triangle {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     background: transparent;
-    border: 100px solid #000000;
+    border: 200px solid #000000;
     position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     border-top-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
