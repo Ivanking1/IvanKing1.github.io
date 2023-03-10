@@ -2,7 +2,14 @@
 div.rect
 {
   height: 200px;
-  width: 40px;
+  width: 400px;
   background: red;
-  align-self: center;
+  position:center;
+}
+div.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: blue;
+    position: center;
 }
