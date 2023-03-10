@@ -1,5 +1,5 @@
 ﻿
-div.rect
+div.rectangle
 {
   height: 200px;
   width: 400px;
@@ -11,5 +11,20 @@ div.circle {
     width: 200px;
     border-radius: 100px;
     background: blue;
-    position: center;
+    position:center;
+}
+
+div.triangle {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background: pink;
+    background: transparent;
+    border: 100px solid #4cff00;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
 }
