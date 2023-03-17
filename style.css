@@ -2,7 +2,7 @@
 div.rectangle {
     height: 200px;
     width: 400px;
-    background: red;
+    background: green;
     position: relative;
     left: 50%;
     transform: translate(-50%);
